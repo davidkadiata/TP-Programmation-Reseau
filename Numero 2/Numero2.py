@@ -1,12 +1,12 @@
 import smtplib
 
 
-fromaddr = 'davidkadiata@gmail.com'  
-toaddrs  = 'jusksp@gmail.com' 
+fromaddr = 'mongmail@gmail.com'  
+toaddrs  = 'phd@gmail.com' 
 msg = 'Bonjour Phd, c est David TSHIBANGU KADIATA  DE MASTER 1 UPL. juste le test'  
 
 username = 'davidkadiata'  
-password = 'Jolibor@1990'
+password = 'MonPassWord'
 
 server = smtplib.SMTP('smtp.gmail.com', 587)  
 server.ehlo()
